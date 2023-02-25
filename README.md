@@ -1,4 +1,4 @@
-# Quasar-Node-Kurulum-Rehberi
+<h1 align="center"> Quasar-Node-Kurulum-Rehberi </h1>
 ```
 sudo apt update && sudo apt upgrade -y
 ```
