@@ -86,3 +86,22 @@ systemctl start quasard
 ```
 sudo journalctl -u quasard -fo cat
 ```
+
+- VALİDATÖR KURULUMU
+
+```
+quasard tx staking create-validator \
+  --amount 800000uqsr \
+  --from CÜZDANADI \
+  --commission-max-change-rate "0.01" \
+  --commission-max-rate "0.2" \
+  --commission-rate "0.06" \
+  --min-self-delegation "1" \
+  --pubkey  $(quasard tendermint show-validator) \
+  --moniker VALIDATORADINIZ \
+  --website "GITHUBLINKINIZ" \
+  --details "TWITTERLINKINIZ" \
+  --identity KEYBASEIDKODUNUZ \
+  --chain-id qsr-questnet-04
+
+```
