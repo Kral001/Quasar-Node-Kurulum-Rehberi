@@ -1,6 +1,6 @@
  # Quasar-Node-Kurulum-Rehberi 
  
- -MANUEL KURULUM
+ - MANUEL KURULUM
  
 ```
 sudo apt update && sudo apt upgrade -y
