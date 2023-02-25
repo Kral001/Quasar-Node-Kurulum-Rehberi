@@ -1,4 +1,7 @@
  # Quasar-Node-Kurulum-Rehberi 
+ 
+ -MANUEL KURULUM
+ 
 ```
 sudo apt update && sudo apt upgrade -y
 ```
@@ -82,4 +85,10 @@ systemctl start quasard
 ```
 ```
 sudo journalctl -u quasard -fo cat
+```
+
+- OTOMATİK KURULUM
+
+```
+source <(curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts/master/quasar/qsr-questnet-04/install.sh)
 ```
